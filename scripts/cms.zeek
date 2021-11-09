@@ -159,7 +159,7 @@ function get_set_cookie(hlist: mime_header_list): set[string]
     return cookies;
 }
 
-event bro_init()
+event zeek_init()
 {
     # Create the new CMS event logging stream (cms.log)
     local stream = [$columns=Info, $path="cms"];
