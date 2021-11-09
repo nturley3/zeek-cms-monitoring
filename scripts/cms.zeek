@@ -63,7 +63,7 @@ type SessionContext: record
 };
 
 ## This function expires documents in the user state tracking table when session_expiration has been reached.
-## This is important for controlling memory consumption and making sure documents are cleaned out if Bro
+## This is important for controlling memory consumption and making sure documents are cleaned out if Zeek
 ## was unable to track the entire session
 function expire_doc(t: table[string] of table[string] of SessionContext, idx: string): interval
 {
