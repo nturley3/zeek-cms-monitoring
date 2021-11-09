@@ -2,7 +2,6 @@
 description = Provides additional monitoring and alerting for CMS such as WordPress and Drupal
 tags = http, cms, wordpress, drupal, joomla
 script_dir = scripts
-version = 1.2.4
 depends =
   bro >=2.5.0
   https://github.com/nturley3/zeek-http-post-bodies >=3.0.0
