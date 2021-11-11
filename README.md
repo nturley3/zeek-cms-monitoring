@@ -24,8 +24,9 @@ No additional Zeek configuration is necessary for this package.
 
 # Tested CMS Versions
 | CMS | Versions |
+|-- | -- |
 | Drupal | 8.9 |
-| Joomla |  |
+| Joomla | Unavailable |
 | Wordpress | 4.9, 5.8 |
 
 # Generated Outputs
