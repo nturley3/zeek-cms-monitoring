@@ -20,7 +20,13 @@ See the [Zeek Package Manager Docs](https://docs.zeek.org/projects/package-manag
 
 # Configuration
 
-No additional Zeek configuration is necessary for this package. However, Zeek admins may want to 
+No additional Zeek configuration is necessary for this package.
+
+# Tested CMS Versions
+| CMS | Versions |
+| Drupal | 8.9 |
+| Joomla |  |
+| Wordpress | 4.9, 5.8 |
 
 # Generated Outputs
 
@@ -29,12 +35,12 @@ This package creates a new log type called cms.
 | ----- | ----- | ----- |
 | (Connection Info) | Various | The typical id.orig_h, id.resp_h, etc. |
 | cms_uri | `string` | The login URL. |
-| cms_timeout | `bool` | Identified whether the detected password is in the haveibeenpwned password dataset |
+| cms_timeout | `bool` | Zeek was unable to track the entire login session. |
 | lv_dist | `count` | The [Levenshtein Distance](https://en.wikipedia.org/wiki/Levenshtein_distance) between the username and the password. |
 | password | `count` | Identifies the password submitted. |
 | pw_length | `count` | Identifies the number of characters in a password. |
-| username | `string` | Identified whether the detected password is in the haveibeenpwned password dataset |
-| user_agent | `string` | Identified whether the detected password is in the haveibeenpwned password dataset |
+| username | `string` | The username submitted. |
+| user_agent | `string` | The user-agent of the HTTP request. |
 
 # Usage
 

@@ -63,7 +63,7 @@ type SessionContext: record
 };
 
 ## This function expires documents in the user state tracking table when session_expiration has been reached.
-## This is important for controlling memory consumption and making sure documents are cleaned out if Bro
+## This is important for controlling memory consumption and making sure documents are cleaned out if Zeek
 ## was unable to track the entire session
 function expire_doc(t: table[string] of table[string] of SessionContext, idx: string): interval
 {
@@ -159,7 +159,7 @@ function get_set_cookie(hlist: mime_header_list): set[string]
     return cookies;
 }
 
-event bro_init()
+event zeek_init()
 {
     # Create the new CMS event logging stream (cms.log)
     local stream = [$columns=Info, $path="cms"];
