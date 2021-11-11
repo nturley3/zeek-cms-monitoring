@@ -22,11 +22,11 @@ See the [Zeek Package Manager Docs](https://docs.zeek.org/projects/package-manag
 
 No additional Zeek configuration is necessary for this package.
 
-# Supported CMS
+# Tested CMS Versions
 | CMS | Versions |
-| Drupal | 7.x 8.x |
+| Drupal | 8.9 |
 | Joomla |  |
-| Wordpress |  |
+| Wordpress | 4.9, 5.8 |
 
 # Generated Outputs
 
