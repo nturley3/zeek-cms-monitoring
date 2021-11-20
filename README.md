@@ -4,7 +4,7 @@ Detects authentication attempts to Drupal, Wordpress, and Joomla content managem
 
 # Installation/Upgrade
 
-This script was tested using Zeek 3.0.11
+This script was tested using Zeek 3.0.11 and 4.0.3.
 
 This is easiest to install through the Zeek package manager:
 
