@@ -54,3 +54,6 @@ A security analyst can examine the cms log to determine if a successful login to
 A security analysts could also identify weak credentials used by legitimate personnel. A low Levenshtein Distance or password length indicates the credentials are more susceptible to a brute force attack.
 
 Type: Threat Hunting
+
+## About
+Written by [@nturley3](https://github.com/nturley3).
